@@ -29,8 +29,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-
- }
+}
 
  #logo h1{
      font-size: 200%;
@@ -71,4 +70,19 @@ html {
     width: 100%;
     margin: 0 auto;
     
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #logo img{
+        width: 80%;
+    }
+
+    p, h1, h2{
+        line-height: 40px;
+    }
+
+    #information{
+        width: 80%;
+    }
   }
